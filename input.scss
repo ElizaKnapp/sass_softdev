@@ -1,10 +1,4 @@
-$font-stack: Helvetica, sans-serif;
-$b-color: orange;
-
-body {
-  font: 100% $font-stack;
-  background-color: $b-color;
-}
+@use 'base';
 
 h1 {
   color: blue;
