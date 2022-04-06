@@ -1,5 +1,12 @@
 @use 'global';
 
+%message-shared {
+  position: relative;
+  margin:20px;
+  color: green;
+  background-color: purple;
+}
+
 body {
   font: 100% global.$font-stack;
   background-color: global.$b-color;

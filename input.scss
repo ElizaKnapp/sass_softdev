@@ -7,8 +7,5 @@ h1 {
 }
 
 h3 {
-  position: relative;
-  margin:20px;
-  color: green;
-  background-color: purple;
+  @extend %message-shared;
 }
