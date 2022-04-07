@@ -1,0 +1,13 @@
+@use 'base';
+
+h1 {
+    color: darkcyan;
+    background-color: darkgoldenrod;
+    text-align: right;
+  }
+  
+  
+  h3 {
+    @extend %equal-heights;
+  }
+  

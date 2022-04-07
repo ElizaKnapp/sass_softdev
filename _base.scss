@@ -7,7 +7,12 @@
   background-color: purple;
 }
 
+%equal-heights {
+  font-size: larger;
+  color: lightcoral;
+}
+
 body {
   font: 100% global.$font-stack;
-  background-color: global.$b-color;
+  @include global.theme(DarkRed);
 }

@@ -17,10 +17,8 @@
 }
 
 h3 {
-  position: relative;
-  margin: 20px;
-  color: green;
-  background-color: purple;
+  font-size: larger;
+  color: lightcoral;
 }
 
 body {
@@ -31,9 +29,9 @@ body {
 }
 
 h1 {
-  color: green;
-  background-color: pink;
-  text-align: center;
+  color: darkcyan;
+  background-color: darkgoldenrod;
+  text-align: right;
 }
 
-/*# sourceMappingURL=output.css.map */
+/*# sourceMappingURL=output2.css.map */
