@@ -16,3 +16,14 @@ body {
   font: 100% global.$font-stack;
   @include global.theme(DarkRed);
 }
+
+h1 {
+  color: green;
+  background-color: pink;
+  text-align: center;
+}
+
+
+h3 {
+  @extend %message-shared;
+}
